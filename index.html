@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">MyPortfolio</div>
+        <nav>
+            <a href="#about" class="">About</a>
+            <a href="#projects" class="">Projects</a>
+            <a href="#timeline" class="">Timeline</a>
+            <a href="#contact" class="">Contact</a>
+        </nav>
+        <button class="toggle-theme" id="themeToggle" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+    </header>
+    <section class="hero">
+        <div class="floating-shape shape1"></div>
+        <div class="floating-shape shape2"></div>
+        <div class="floating-shape shape3"></div>
+        <div class="hero-content">
+            <h1>Hi, I'm BHAVISHYA CHAURASIYA</h1>
+            <div class="typed-text" id="typed">Front-End Develop</div>
+            <p>I'm a passionate <b>Web Developer</b> crafting modern, interactive experiences.<br>
+                I love building beautiful, performant websites and apps.</p>
+            <div class="socials">
+                <a href="https://github.com/Bhavishya2410u" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/bhavishya-chaurasiya-146248358/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/Bhavishya2410u" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:8076735072kirti@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="about">
+        <div class="section-title">About Me</div>
+        <div class="cards">
+            <div class="card visible">
+                <div class="icon"><i class="fas fa-user"></i></div>
+                <h3>Who am I?</h3>
+                <p>
+                    I'm a creative developer with a passion for UI/UX, modern web technologies, and building things that make a difference.
+                </p>
+            </div>
+            <div class="card visible">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h3>Skills</h3>
+                <p>
+                    HTML, CSS, JavaScript, React, Node.js, Figma, Git, Responsive Design, Animations, and more.
+                </p>
+            </div>
+            <div class="card visible">
+                <div class="icon"><i class="fas fa-lightbulb"></i></div>
+                <h3>Interests</h3>
+                <p>
+                    UI/UX, Open Source, Animation, Accessibility, Learning new tech, and collaborating on cool projects.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" id="timeline">
+        <div class="section-title">Timeline</div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h4>2024 - Present</h4>
+                    <p>Front-End Developer</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h4>2024-2028</h4>
+                    <p>Bachelor's in ELECTRONICS AND COMMUNICATION ENGINEERING,MAHARAJA AGRASEN INSTITUTE OF TECHNOLOGY</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <div class="section-title">Contact Me</div>
+        <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required="" aria-label="Your Name">
+            <input type="email" name="email" placeholder="Your Email" required="" aria-label="Your Email">
+            <textarea name="message" rows="5" placeholder="Your Message" required="" aria-label="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+            <div class="form-message" id="formMessage"></div>
+        </form>
+    </section>
+</div>    
+<script src="script.js"></script>
+</body>
+</html>
